@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Color Wheel</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Color Wheel</h1>
+			</header>
+			<section class="score-section">
+				<div class="cur-hi-score">
+					<span class="score-text">Hi-Score</span>
+					<span class="score" id="high-score">0</span>
+				</div>
+				<div class="cur-score">
+					<span class="score-text">Score</span>
+					<span class="score" id="score">0</span>
+				</div>
+				<div class="clear"></div>
+			</section>
+			<section class="game-area" id="game-area">
+				<div class="hand" id="hand">
+				</div>
+				<div class="play">
+					<div id="play-button">
+						<img src="images/play1.png">						
+					</div>
+					<div class="last-score">
+						<span class="score-text">Score</span>
+						<span class="score" id="final-score">0</span>
+					</div>
+					<div class="last-hi-score">
+						<span class="score-text">Hi-score</span>
+						<span class="score" id="overall-hi-score">0</span>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
